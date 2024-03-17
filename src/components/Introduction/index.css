@@ -1,0 +1,52 @@
+
+
+.intro-container{
+    margin-right:100px;
+    display:flex;
+    flex-direction:column;
+}
+.main-heading{
+    color:white;
+    font-size:40px;
+    font-style:italic;
+}
+.description{
+    color:white;
+    font-weight:bold;
+}
+.highlighted-text{
+    color:yellow;
+}
+.list-items-container{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    
+}
+li::marker {
+    color: white;
+}
+.btn{
+    background-color:red;
+    color:white;
+}
+.sub-description{
+    color:white;
+}
+.whatsapp-icon{
+    margin-right:10px;
+    font-size:20px;
+}
+.talk-to-us-btn{
+    background-color:green;
+    color:white;
+    width:150px;
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+@media screen and (max-width:350px){
+    .main-heading{
+        display:none;
+    }
+}

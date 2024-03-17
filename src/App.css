@@ -1,0 +1,17 @@
+.bg-container{
+  background-image:url("https://t4.ftcdn.net/jpg/04/29/66/69/360_F_429666936_Dew5BPcLjQTAeyxhdAzJcYGTJVFwa69e.jpg");
+  background-size:cover;
+  min-height:100vh;
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  padding:50px;
+  
+  }
+  @media screen and (max-width:375px){
+    .bg-container{
+      display:flex;
+      flex-direction:column;
+    }
+  }
+
